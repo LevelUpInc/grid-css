@@ -1,0 +1,23 @@
+{
+  "name": "grid-css",
+  "version": "1.0.0",
+  "description": "Simple Grid and CSS utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levelupdefy/grid-css.git"
+  },
+  "keywords": [
+    "CSS",
+    "utility"
+  ],
+  "author": "cx0y (rs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/levelupdefy/grid-css/issues"
+  },
+  "homepage": "https://github.com/levelupdefy/grid-css#readme"
+}
