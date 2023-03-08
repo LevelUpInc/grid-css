@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.f-vl{
+    font-family: 'Varela Round', sans-serif;
+}
+.grid{
+    display:grid;
+    column-gap:0.125rem;
+    row-gap:0.125rem;
+    padding:0.7%;
+}
+.flex{
+    display:flex;
+}
+
+.flex-row{
+    flex-direction:row;
+}
+.flex-col{
+    flex-direction:column;
+}
+
+.justify-center{
+    justify-content:center;
+}
+
+.center{
+    text-align:center;
+}
+
+.grid-cont{
+    padding:3%;
+    text-align:center;
+}
+.auto{
+    grid-template-columns:auto auto auto;
+}
+.auto4{
+    grid-template-columns:auto auto auto auto;
+}
+.auto5{
+    grid-template-columns:auto auto auto auto auto;
+}
+.g01{
+    grid-template-columns:auto;
+}
+.g73{
+    grid-template-columns:70% 30%;
+}
+.g64{
+    grid-template-columns:60% 40%;
+}
+.g55{
+    grid-template-columns:50% 50%;
+}
+.g46{
+    grid-template-columns:40% 60%;
+}
+.g37{
+    grid-template-columns:30% 70%;
+}
+.g03{
+    grid-template-columns:33.33% 33.33% 33.33%;
+}
+.g02{
+    grid-template-columns:50% 50%;
+}
+.img{
+    width:100%;
+}
+
+@media (max-width:767px) and (orientation: portrait) {
+    .grid{
+        display:flex;
+        flex-direction:column;
+        row-gap:1rem;
+        padding:10%;
+    }
+    .m-hide{
+        display:none;
+    }
+}
+
+@media (max-width:991px) and (min-width:768px) and (orientation: portrait){
+    .grid{
+        display:grid;
+        grid-template-columns:auto auto auto;
+        column-gap:0.125rem;
+        padding:3%;
+    }
+}
